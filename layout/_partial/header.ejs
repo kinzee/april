@@ -1,0 +1,26 @@
+<header class="header">
+<div id="nav">
+  <img class="avatar" src="<%- url_for(theme.avatar) %>" alt="avatar" />
+  <nav class="menu">
+    <% for (var i in theme.menu){ %>
+      <% if (url_for(theme.menu[i]) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[i]) == '/.' && is_home())) { %>
+        <a class="menu-active" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <% } else { %>
+        <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <% } %>
+    <% } %>
+  </nav>
+</div>
+
+<ul class="social-list">
+  <% for (var i in theme.social){ %>
+    <% if (theme.social[i]){ %>
+      <li>
+        <a href="<%- theme.social[i] %>" class="<%= i %>" target="_blank">
+          <i class="fa fa-<%= i %>"></i>
+        </a>
+      </li>
+    <% } %>
+  <% } %>
+</ul>
+</header>

@@ -1,0 +1,79 @@
+#nav {
+
+}
+.avatar {
+	float: left;
+	width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid #425066;
+}
+
+.menu {
+	float: left;
+	margin-top: 45px;
+	margin-left: 18px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.menu a{
+	padding: 6px 10px;
+	color: #425066;
+    text-decoration: none;
+}
+
+.social-list {
+	clear: both;
+	list-style: outside none none;
+}
+
+.social-list li {
+	float: left;
+	margin-top: 12px;
+	margin-right: 8px;
+}
+
+.social-list li a{
+	 border-radius: 30px;
+	 color: #000000;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     width: 30px;
+     height: 30px;
+}
+
+.social-list li a:hover{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     color:#000000;
+}
+
+.social-list li a i {
+	font-size: 22px;
+    font-style: normal;
+    line-height: 30px;
+    margin: 0;
+}
+
+.description {
+	clear: both;
+	margin-top: 30px;
+}
+
+.title {
+	color: #030000;
+	font-size: 32px;
+}
+
+.subtitle{
+
+}
+
+.description p {
+	color: #51534a;
+	font-size: 14px;
+	margin-top: 10px;
+}
+

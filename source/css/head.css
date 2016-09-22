@@ -1,0 +1,26 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	position: relative;
+	background-color:#e2e0e0;
+	background-position: 0 0px;
+	padding-bottom: 70px;
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+.content {
+  position:relative;
+  overflow:hidden;
+  background-color: #fafbfd;
+  max-width: 112rem;
+  min-width: 480px;
+  margin :0px 250px;
+  padding: 10px 90px;
+  height: 890px;
+  -webkit-box-shadow: 0 0 0 35px 20px rgba(79,69,66,0.2);
+  -moz-box-shadow: 0 0 0 35px 20px rgba(79,69,66,0.2);
+  box-shadow: 0 0 0 35px 20px rgba(79,69,66,0.2);
+}
