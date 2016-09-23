@@ -1,3 +1,27 @@
-.index {
+main.index {
 	margin-top: 50px;
+	list-style: outside none none;
+	border-left-style:outset;
+	border-right-style:none;
+	border-top-style:none;
+	border-bottom-style:none;
+}
+.article-title{
+	margin-top: 28px;
+	margin-left: 8px;
+
+}
+.article-title a{
+	color: #425066;
+	font-size:23px;
+	text-decoration:none;
+}
+.article-data {
+	position: relative;
+	margin-top: -20px;
+	float: right;
+}
+.article-data time{
+	font-size: 14px;
+	color: #51534a;
 }

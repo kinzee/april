@@ -6,7 +6,9 @@
       <% if (url_for(theme.menu[i]) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[i]) == '/.' && is_home())) { %>
         <a class="menu-active" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
       <% } else { %>
-        <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+        <a href="<%- url_for(theme.menu[i]) %>">
+        <i class="fa fa-circle-thin"></i>
+        <%= i %></a>
       <% } %>
     <% } %>
   </nav>
