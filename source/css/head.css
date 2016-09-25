@@ -17,10 +17,14 @@ body {
   background-color: #fafbfd;
   max-width: 112rem;
   min-width: 480px;
-  margin :0px 250px;
+  min-height:720px;
+  margin :0px 250px 32px 250px;
   padding: 10px 90px;
-  height: 890px;
-  -webkit-box-shadow: 0 0 0 35px 20px rgba(79,69,66,0.2);
-  -moz-box-shadow: 0 0 0 35px 20px rgba(79,69,66,0.2);
-  box-shadow: 0 0 0 35px 20px rgba(79,69,66,0.2);
+  -webkit-box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
+  -moz-box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
+  box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
+}
+
+a {
+  text-decoration:none;
 }

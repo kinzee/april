@@ -13,7 +13,7 @@
     <% } %>
   </nav>
 </div>
-
+<% if (is_home()) { %>
 <ul class="social-list">
   <% for (var i in theme.social){ %>
     <% if (theme.social[i]){ %>
@@ -25,4 +25,6 @@
     <% } %>
   <% } %>
 </ul>
+<% } %>
+
 </header>

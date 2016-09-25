@@ -1,0 +1,9 @@
+<article class="grid">
+  <h1 class="archive-title">
+    <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+  </h1>
+
+  <div class="article-data">
+    <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, config.date_format) %></time>
+  </div>
+</article>

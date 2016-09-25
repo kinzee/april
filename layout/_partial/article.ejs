@@ -1,0 +1,13 @@
+<article>
+  <h1 class="post-title">
+    <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+  </h1>
+
+  <section class="post-date">
+    <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">录于<%= date(post.date, config.date_format) %></time>
+  </section>
+
+  <section class="post-entry">
+    <%- post.content %>
+  </section>
+</article>

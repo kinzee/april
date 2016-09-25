@@ -1,0 +1,108 @@
+.code-block {
+  overflow: auto;
+  margin: 20px 0;
+  padding: 15px;
+  font-size:13px;
+  color: #4d4d4c;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+
+pre, code {
+	/*font-family: "Source Code Pro", Consolas, Monaco, Menlo, monospace;*/
+	font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', monospace;
+}
+
+code {
+  padding: 2px 4px;
+  word-break: break-all;
+  color: #555;
+  background: #eee;
+  border-radius: 4px;
+  font-size :13px;
+}
+
+pre {
+  overflow: auto;
+  margin: 20px 0;
+  padding: 15px;
+  font-size:13px;
+  color: #4d4d4c;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+
+pre code {
+	padding: 0;
+    color: #4d4d4c;
+    background: none;
+    text-shadow: none;
+}
+
+.highlight {
+	overflow: auto;
+	margin: 20px 0;
+	padding: 15px;
+	font-size:13px;
+	color: #4d4d4c;
+	background: #f7f7f7;
+	line-height: 1.6;
+}
+
+.highlight pre{
+	border: none;
+    margin: 0;
+    padding: 1px;
+}
+
+.highlight table{
+    margin: 0;
+    width: auto;
+    border: none;
+  }
+
+.highlight  td {
+    border: none;
+    padding: 0;
+  }
+
+figure {
+	background: #f7f7f7;
+  }
+
+.highlight figcaption {
+    font-size: 1em;
+    color: #4d4d4c;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+.highlight figcaption a {
+    float: right;
+    color: #4d4d4c;
+}
+
+.highlight figcaption a :hover {
+	border-bottom-color:#4d4d4c;
+}
+
+
+.gutter pre {
+    color: #666;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+.line {
+  	height: 20px;
+  }
+
+.gist table {
+  width: auto;
+}
+
+.gist table td {
+  border: none;
+}
+
+
