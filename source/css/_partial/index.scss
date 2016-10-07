@@ -1,5 +1,5 @@
 main.index {
-	margin-top: 50px;
+	margin-top: 8rem;
 	list-style: outside none none;
 	border-left-style:outset;
 	border-right-style:none;
@@ -8,32 +8,32 @@ main.index {
 }
 .article-title{
 	clear: both;
-	margin-top: 28px;
-	margin-left: 12px;
+	margin-top: 2.8rem;
+	margin-left: 1.2rem;
 
 }
 .article-title a{
-	color: #425066;
-	font-size:23px;
+	color: $article-title-font-color;
+	font-size:$article-title-font-size;
 	text-decoration:none;
 }
 
 .article-title a:hover {
-	color: #e6c7a1;
+	color: $article-title-font-hover-color;
 }
 
 .article-data {
 	position: relative;
-	margin-top: -20px;
+	margin-top: -2.0rem;
 	float: right;
 }
 
 .article-data time{
-	font-size: 14px;
-	color: #999999;
+	font-size: 1.4rem;
+	color: $article-time-font-color;
 }
 
 .page-nav {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 3.0rem;
 }

@@ -1,0 +1,51 @@
+.post {
+	margin-top: 6.8rem;
+}
+
+.post-title {
+	text-align: center;
+}
+
+.post-title a {
+	font-size:$post-title-size;
+	font-weight:normal;
+	color:$post-title-color;
+	text-decoration:none;
+}
+
+.post-date {
+	text-align: right;
+	font-size: $post-data-szie;
+	color:$post-data-color;
+}
+
+.post-entry {
+	margin-top: 5.6rem;
+	font-size: 1.4rem;
+	line-height:200%;
+	color:$post-entry-coloe;
+
+    ul{
+	    padding: 4.0rem;
+        li {
+	        list-style: circle;
+        }
+    }
+
+    img {
+        box-sizing: border-box;
+        margin: auto;
+        padding: 3px;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid $post-entry-img-border-color;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+            text-decoration: underline;
+            }
+    }
+}

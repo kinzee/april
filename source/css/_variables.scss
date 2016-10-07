@@ -1,0 +1,65 @@
+//color
+$color-deep-blue: #425066;
+$color-pure-black: #000c0f;
+$color-light-grey: #ccc;
+$color-lighter-grey: #ddd;
+$color-deep-grey: #51534a;
+$color-dim-white: #fafbfd;
+$color-light-gold: #e6c7a1;
+
+$root-font-size: 62.5%;
+$body-font-size: 1.4rem;
+
+$body-back-color: $color-light-grey;
+
+$content-back-color: $color-dim-white;
+$content-max-with: 64rem;
+$content-min-with:48rem;
+$content-min-height:72rem;
+
+//avatar
+$avatar-width: 8rem;
+$avatar-height: 8rem;
+
+//menu
+$menu-font-size: 1.6rem;
+$menu-font-color: $color-deep-blue;
+$menu-circle-color: $color-pure-black;
+$menu-circle-size: 1.2rm;
+
+//social
+$social-back-color: $color-pure-black;
+
+//title
+$title-back-color: $color-deep-blue;
+$title-font-color: $color-dim-white;
+$title-font-size: 2.8rem;
+$subtitle-font-color: $color-light-grey;
+$subtitle-font-size: 1.4rem;
+
+$author-font-color: $color-deep-blue;
+$author-font-size:1.6rem;
+$desc-font-color: $color-light-grey;
+$desc-font-size: 1.4rem;
+
+//article
+$article-title-font-color: $color-deep-grey;
+$article-title-font-size: 2.3rem;
+$article-title-font-hover-color: $color-light-gold;
+$article-time-font-color: $color-light-grey;
+
+//archive
+$archive-border-left-color: $color-light-grey;
+$archive-title-color: $color-deep-blue;
+$archive-title-hover-border-color: $color-deep-blue;
+
+//post
+$post-title-color: $color-pure-black;
+$post-title-size: 2.8rem;
+$post-data-color: $color-light-grey;
+$post-data-szie: 1.4rem;
+$post-entry-coloe: $color-deep-blue;
+$post-entry-img-border-color: $color-lighter-grey;
+
+//footer
+$footer-font-color: $color-deep-grey; 

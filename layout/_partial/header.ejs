@@ -1,6 +1,12 @@
 <header class="header">
 <div id="nav">
   <img class="avatar" src="<%- url_for(theme.avatar) %>" alt="avatar" />
+
+  <div class="site-title">
+    <h1> <%- config.title %> </h1>
+    <h3> <%- config.subtitle %> </h1>
+  </div>
+
   <nav class="menu">
     <% for (var i in theme.menu){ %>
       <% if (url_for(theme.menu[i]) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[i]) == '/.' && is_home())) { %>
@@ -13,6 +19,12 @@
     <% } %>
   </nav>
 </div>
+
+<section class="site-author">
+  <p class="site-author-name" itemprop="name"> <%- theme.author %></p>
+  <p class="description" itemprop="description"> <%- config.description %> </p>
+</section>
+
 <% if (is_home()) { %>
 <ul class="social-list">
   <% for (var i in theme.social){ %>

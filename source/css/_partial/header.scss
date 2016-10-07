@@ -1,0 +1,126 @@
+#nav {
+	.avatar {
+		margin-top: 1rem;
+		width: $avatar-width;
+	    height: $avatar-height;
+	    border-radius: 50%;
+	    border: 2px solid $color-deep-blue;
+	}
+
+	.menu {
+		float: right;
+		margin-top: 1rem;
+		margin-left: 1.8rem;
+	    text-transform: capitalize;
+	    font-size: $menu-font-size;
+
+	    a {
+	    	padding:1rem 0.6rem 1rem 0.6rem;
+			letter-spacing: 0.4rem;
+			color: $menu-font-color;
+		    text-decoration: none;
+		    -webkit-writing-mode:vertical-rl;
+		    border-left-style:outset;
+			border-right-style:none;
+			border-top-style:none;
+			border-bottom-style:none;
+			border-left-width: thin;
+	
+			&:hover {
+				font-weight: bold;
+			}
+
+			i {
+				margin-bottom: 1rem;
+				color: $menu-circle-color;
+				font-size: $menu-circle-size;
+			}
+	    }
+	}
+}
+
+.social-list {
+	clear: both;
+	list-style: outside none none;
+
+	li{
+		float: left;
+		margin-top: 1.2rem;
+		margin-right: 1.8rem;
+
+		a{
+			 border-radius: 2.6rem;
+			 color: #fff;
+			 background-color: $social-back-color;
+		     display: block;
+		     text-align: center;
+		     text-decoration: none;
+		     width: 2.6rem;
+		     height: 2.6rem;
+
+		     &:hover {
+		     	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     			color: #fff;
+		     }
+
+		     i {
+		     	font-size: 1.8rem;
+			    font-style: normal;
+			    line-height: 3.0rem;
+			    margin: 0;
+		     }
+
+		}
+	}
+}
+
+.site-title {
+	position: absolute;
+	float: right;
+	top: 1.8rem;
+	right: 0rem;
+	text-transform: capitalize;
+	z-index:999;
+
+	h1 {
+		float: right;
+		background-color: $title-back-color;
+		-webkit-writing-mode:vertical-rl;
+		padding: 0.8rem 0rem;
+		color: $title-font-color;
+		font-size: $title-font-size;
+	}
+
+	h3 {
+		float: right;
+		padding: 0.4rem 1.4rem;
+		-webkit-writing-mode:vertical-rl;
+		color: $subtitle-font-color;
+		font-size: $subtitle-font-size;
+		font-weight: 300;
+	}
+
+}
+
+.site-author {
+	clear: both;
+	text-decoration: none;
+
+	.site-author-name {
+		width:$avatar-width;
+		text-align: center;
+		color: $author-font-color;
+		font-size: $author-font-size;
+	}
+
+
+	.description {
+		color: $desc-font-color;
+		font-size: $desc-font-size;
+		margin-top: 0.8rem;
+	}
+}
+
+
+
+

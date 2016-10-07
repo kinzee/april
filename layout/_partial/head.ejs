@@ -34,17 +34,10 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <% } %>
 
-
    <!-- style -->
-  <link rel="stylesheet" href="<%- config.root %>css/head.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/header.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/index.css"  media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/footer.css"  media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/article.css"  media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/highlight.css"  media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/archive.css"  media="screen" type="text/css">
-  <link rel="stylesheet" href="<%- config.root %>css/paginator.css"  media="screen" type="text/css">
+  <%- css('css/main') %>
   <link rel="stylesheet" href="<%- config.root %>css/font-awesome.min.css">
+
 <!-- analytics -->
 <%- partial('google-analytics') %>
 <%- partial('baidu-analytics') %>

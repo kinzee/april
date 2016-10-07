@@ -47,45 +47,48 @@ pre code {
 	color: #4d4d4c;
 	background: #f7f7f7;
 	line-height: 1.6;
+
+    pre{
+        border: none;
+        margin: 0;
+        padding: 1px;
+    }
+
+    table{
+        margin: 0;
+        width: auto;
+        border: none;
+    }
+
+    td {
+        border: none;
+        padding: 0;
+    }
+
+    figcaption {
+        font-size: 1em;
+        color: #4d4d4c;
+        line-height: 1em;
+        margin-bottom: 1em;
+
+        a {
+            float: right;
+            color: #4d4d4c;
+            &:hover {
+	            border-bottom-color:#4d4d4c;
+            }
+        }
+    }
+
 }
 
-.highlight pre{
-	border: none;
-    margin: 0;
-    padding: 1px;
-}
 
-.highlight table{
-    margin: 0;
-    width: auto;
-    border: none;
-  }
 
-.highlight  td {
-    border: none;
-    padding: 0;
-  }
+
 
 figure {
 	background: #f7f7f7;
   }
-
-.highlight figcaption {
-    font-size: 1em;
-    color: #4d4d4c;
-    line-height: 1em;
-    margin-bottom: 1em;
-}
-
-.highlight figcaption a {
-    float: right;
-    color: #4d4d4c;
-}
-
-.highlight figcaption a :hover {
-	border-bottom-color:#4d4d4c;
-}
-
 
 .gutter pre {
     color: #666;
@@ -105,4 +108,9 @@ figure {
   border: none;
 }
 
+blockquote {
+    padding: 0 15px;
+    color: #666;
+    border-left: 4px solid #ddd;
+}
 

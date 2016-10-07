@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+html {
+	font-size: $root-font-size;
+}
+
+body {
+	position: relative;
+	background-color:$body-back-color;
+	background-position: 0 0px;
+	padding-bottom: 7rem;
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+.content {
+	  position:relative;
+	  overflow:hidden;
+	  background-color: $content-back-color;
+	  max-width: $content-max-with;
+	  min-width: $content-min-with;
+	  min-height:$content-min-height;
+	  margin :0rem 25rem 3.2rem 25rem;
+	  padding: 1rem 9rem;
+	  -webkit-box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
+	  -moz-box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
+	  box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
+}
+
+a {
+  text-decoration: none;
+}

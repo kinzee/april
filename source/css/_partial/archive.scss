@@ -1,0 +1,24 @@
+main.archive{
+	margin-top: 4.4rem;
+	border-left: 1px solid $archive-border-left-color;
+}
+
+article.grid {
+	clear: both;
+	padding-top: 1.2rem;
+}
+
+.archive-title a{
+	clear: both;
+	padding: 0.4rem 1.2rem ;
+    font-size: 18px;
+    color: $archive-title-color;
+
+    &:hover {
+        padding-left: 2.3rem;
+        border-left:4px solid$archive-title-hover-border-color;
+        transition: 0.2s ease-out;
+    }
+}
+
+
