@@ -84,20 +84,23 @@
 
 	h1 {
 		float: right;
-		background-color: $title-back-color;
 		-webkit-writing-mode:vertical-rl;
-		padding: 0.8rem 0rem;
+		margin-top: 0rem;
+		padding: 0rem 0.2rem;
 		color: $title-font-color;
 		font-size: $title-font-size;
+		letter-spacing: 0.4rem;
+		font-family: Hoefler Text,"FZQKBYSJW","宋体";
 	}
 
 	h3 {
 		float: right;
-		padding: 0.4rem 1.4rem;
+		padding: 0.4rem 1.2rem;
 		-webkit-writing-mode:vertical-rl;
 		color: $subtitle-font-color;
 		font-size: $subtitle-font-size;
 		font-weight: 300;
+		font-family: Consolas,"宋体";
 	}
 
 }

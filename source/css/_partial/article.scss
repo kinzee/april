@@ -23,7 +23,7 @@
 	margin-top: 5.6rem;
 	font-size: 1.4rem;
 	line-height:200%;
-	color:$post-entry-coloe;
+	color:$post-entry-color;
 
     ul{
 	    padding: 4.0rem;
@@ -41,9 +41,26 @@
         border: 1px solid $post-entry-img-border-color;
     }
 
+    h1 {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+
+    }
+
+    h2 {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    h3 {
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+
     a {
         text-decoration: none;
         font-weight: bold;
+        color: $post-entry-color;
         &:hover {
             text-decoration: underline;
             }

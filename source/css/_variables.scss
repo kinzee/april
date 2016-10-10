@@ -1,6 +1,20 @@
+@font-face {
+    font-family: "FZQKBYSJW";
+    src: url("../fonts/FZQKBYSJW/FZQKBYSJW.eot"); /* IE9 */
+    src: url("../fonts/FZQKBYSJW/FZQKBYSJW.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/FZQKBYSJW.woff") format("woff"), /* chrome, firefox */
+
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../fonts/FZQKBYSJW/FZQKBYSJW.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 //color
 $color-deep-blue: #425066;
+$color-light-blue: #e8e5f9;
 $color-pure-black: #000c0f;
+$color-light-black: #4c4c47;
 $color-light-grey: #ccc;
 $color-lighter-grey: #ddd;
 $color-deep-grey: #51534a;
@@ -31,11 +45,10 @@ $menu-circle-size: 1.2rm;
 $social-back-color: $color-pure-black;
 
 //title
-$title-back-color: $color-deep-blue;
-$title-font-color: $color-dim-white;
-$title-font-size: 2.8rem;
+$title-font-color:  $color-pure-black;
+$title-font-size: 3.2rem;
 $subtitle-font-color: $color-light-grey;
-$subtitle-font-size: 1.4rem;
+$subtitle-font-size: 1.2rem;
 
 $author-font-color: $color-deep-blue;
 $author-font-size:1.6rem;
@@ -58,8 +71,15 @@ $post-title-color: $color-pure-black;
 $post-title-size: 2.8rem;
 $post-data-color: $color-light-grey;
 $post-data-szie: 1.4rem;
-$post-entry-coloe: $color-deep-blue;
+$post-entry-color: $color-deep-blue;
 $post-entry-img-border-color: $color-lighter-grey;
 
 //footer
 $footer-font-color: $color-deep-grey; 
+
+//highlight
+$code-font-size: 1.3rem;
+$code-font-color: $color-light-black;
+$code-back-color: $color-light-blue;
+$blockquote-font-color: $color-light-blue;
+$blockquote-border-color: $color-lighter-grey;
