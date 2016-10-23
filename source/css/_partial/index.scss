@@ -1,15 +1,9 @@
 main.index {
 	margin-top: 8rem;
-	list-style: outside none none;
-	border-left-style:outset;
-	border-right-style:none;
-	border-top-style:none;
-	border-bottom-style:none;
 }
 .article-title{
 	clear: both;
-	margin-top: 2.8rem;
-	margin-left: 1.2rem;
+	margin-top: 4.4rem;
 }
 .article-title a{
 	color: $article-title-font-color;
@@ -21,10 +15,16 @@ main.index {
 	color: $article-title-font-hover-color;
 }
 
+.article-content {
+	margin-top: 2.0rem;
+	font-size: $article-content-font-size;
+	color: $archive-content-color;
+	line-height: 2.4rem;
+}
+
 .article-data {
-	position: relative;
-	margin-top: -2.0rem;
-	float: right;
+	margin-top: 2.0rem;
+	text-align: center;
 }
 
 .article-data time{

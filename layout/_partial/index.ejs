@@ -6,9 +6,25 @@
       </h1>
 
       <div class="article-entry">
-        <%- post.foreword %>
-      </div>
-
+          <% if (post.excerpt && index){ %>
+            <%- post.excerpt %>
+          <% } else { %>
+          <div class="article-content">
+             <% if (post.photos && post.photos.length){ %>
+              <div class="article-gallery">
+              <div class="article-gallery-photos">
+              <% post.photos.forEach(function(photo, i){ %>
+              <a class="article-gallery-img fancybox" href="<%- url_for(photo) %>" rel="gallery_<%= post._id %>">
+                <img src="<%- url_for(photo) %>" itemprop="image">
+              </a>
+              <% }) %>
+              </div>
+              </div>
+            <% } else { %>
+              <%- post.content %>
+            <% } %>
+          </div>
+          <% } %>
       <div class="article-data">
          <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, config.date_format) %></time>
       </div>

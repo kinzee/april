@@ -1,6 +1,10 @@
 main.archive{
 	margin-top: 4.4rem;
-	border-left: 1px solid $archive-border-left-color;
+	list-style: outside none none;
+	border-left-style:outset;
+	border-right-style:none;
+	border-top-style:none;
+	border-bottom-style:none;
 }
 
 article.grid {
