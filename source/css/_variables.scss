@@ -57,11 +57,13 @@ $desc-font-size: 1.4rem;
 
 //article
 $article-title-font-color: $color-pure-black;
-$article-title-font-size: 2.3rem;
+$article-title-font-size: 2.4rem;
 $article-title-font-hover-color: $color-light-gold;
-$article-content-font-size: 1.5rem;
+$article-content-font-size: 1.6rem;
 $archive-content-color: $color-deep-grey;
 $article-time-font-color: $color-light-grey;
+$article-time-line-color: #ddd;
+$article-time-font-size: 1.4rem;
 
 //archive
 $archive-border-left-color: $color-light-grey;
@@ -72,7 +74,7 @@ $archive-title-hover-border-color: $color-deep-blue;
 $post-title-color: $color-pure-black;
 $post-title-size: 2.8rem;
 $post-data-color: $color-light-grey;
-$post-data-szie: 1.4rem;
+$post-data-size: 1.4rem;
 $post-entry-color: $color-deep-blue;
 $post-entry-img-border-color: $color-lighter-grey;
 
@@ -80,7 +82,7 @@ $post-entry-img-border-color: $color-lighter-grey;
 $footer-font-color: $color-deep-grey; 
 
 //highlight
-$code-font-size: 1.3rem;
+$code-font-size: 1.4rem;
 $code-font-color: $color-light-black;
 $code-back-color: $color-light-blue;
 $blockquote-font-color: $color-deep-blue;

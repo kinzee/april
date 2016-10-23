@@ -1,9 +1,13 @@
 main.index {
+	margin-top: 8.4rem;
+}
+
+.index-article{
 	margin-top: 8rem;
 }
+
 .article-title{
 	clear: both;
-	margin-top: 4.4rem;
 }
 .article-title a{
 	color: $article-title-font-color;
@@ -16,19 +20,43 @@ main.index {
 }
 
 .article-content {
-	margin-top: 2.0rem;
+	margin-top: 2.4rem;
 	font-size: $article-content-font-size;
 	color: $archive-content-color;
 	line-height: 2.4rem;
+
+	blockquote {
+		text-align: left;
+    	border-left: none;
+		padding-left: 0;
+	}
 }
 
 .article-data {
-	margin-top: 2.0rem;
+	position: relative;
+	margin-top: 4.4rem;
+	text-align: center;
+}
+
+.article-data-line {
+	position: absolute;
+	top: 0;
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px dashed $article-time-line-color;
+}
+
+.article-data-time{
+	position: absolute;
+	top: -$article-time-font-size/2;
+	left: 50%;
+	width:20%;
+	background-color:  $color-dim-white;
 	text-align: center;
 }
 
 .article-data time{
-	font-size: 1.4rem;
+	font-size: $article-time-font-size;
 	color: $article-time-font-color;
 }
 
