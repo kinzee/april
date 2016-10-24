@@ -20,6 +20,7 @@ $color-lighter-grey: #ddd;
 $color-deep-grey: #51534a;
 $color-dim-white: #fafbfd;
 $color-light-gold: #e6c7a1;
+$color-deep-gold:#ccbdab;
 
 $root-font-size: 62.5%;
 $body-font-size: 1.4rem;
@@ -27,8 +28,8 @@ $body-font-size: 1.4rem;
 $body-back-color: $color-light-grey;
 
 $content-back-color: $color-dim-white;
-$content-max-with: 64rem;
-$content-min-with:48rem;
+$content-max-with: 56rem;
+$content-min-with: 32rem;
 $content-min-height:72rem;
 
 //avatar
@@ -64,6 +65,8 @@ $archive-content-color: $color-deep-grey;
 $article-time-font-color: $color-light-grey;
 $article-time-line-color: #ddd;
 $article-time-font-size: 1.4rem;
+$btn-post-more-font-color:$color-light-gold;
+$article-tag-font-color: $color-deep-grey; 
 
 //archive
 $archive-border-left-color: $color-light-grey;

@@ -49,8 +49,9 @@ main.index {
 .article-data-time{
 	position: absolute;
 	top: -$article-time-font-size/2;
-	left: 50%;
+	left: 40%;
 	width:20%;
+	min-width: 14rem;
 	background-color:  $color-dim-white;
 	text-align: center;
 }
@@ -58,6 +59,17 @@ main.index {
 .article-data time{
 	font-size: $article-time-font-size;
 	color: $article-time-font-color;
+}
+
+.post-more-link {
+	margin-top: 0.4rem;
+
+	.btn-post-more{
+		color: $btn-post-more-font-color;
+		&:hover {
+  		text-decoration: underline;
+		}
+	}
 }
 
 .page-nav {

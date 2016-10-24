@@ -23,7 +23,9 @@ body {
 	  max-width: $content-max-with;
 	  min-width: $content-min-with;
 	  min-height:$content-min-height;
-	  margin :0rem 25rem 3.2rem 25rem;
+	  margin-top: 0;
+	  margin-left:auto;
+	  margin-right:auto;
 	  padding: 1rem 9rem;
 	  -webkit-box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
 	  -moz-box-shadow: 0 0 0 42px 28px rgba(79,69,66,0.52);
@@ -32,4 +34,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+li{
+	list-style:none;
 }

@@ -67,14 +67,19 @@
     }
 }
 
-.article-tag-list-item{
+.article-tag {
+    margin-top: 5rem;
+}
+
+.article-tag-list-item {
+    margin-top: 2.4rem;
     float: left;
     margin-right: 10px;
 }
 
-
-
-.article-tag-list-link{
+.article-tag-list-link {
+    font-weight: bold;
+    color:$article-tag-font-color;
     &:before{
         content: "#";
     }

@@ -13,8 +13,8 @@
              <% if (theme.auto_excerpt.enable){ %>
               <%- truncate(strip_html(post.content), {length:  theme.auto_excerpt.length, omission: '...'}) %>
               <% if ( post.content.length > theme.auto_excerpt.length){ %>
-                <div class="post-more-link text-center">
-                  <a class="btn" href="<%- url_for(post.path) %>" rel="contents">
+                <div class="post-more-link">
+                  <a class="btn-post-more" href="<%- url_for(post.path) %>" rel="contents">
                   阅读全文
                   </a>
                 </div>
