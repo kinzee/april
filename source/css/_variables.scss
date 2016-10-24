@@ -63,9 +63,11 @@ $article-title-font-hover-color: $color-light-gold;
 $article-content-font-size: 1.6rem;
 $archive-content-color: $color-deep-grey;
 $article-time-font-color: $color-light-grey;
-$article-time-line-color: #ddd;
+$article-time-line-color: $color-lighter-grey;
 $article-time-font-size: 1.4rem;
-$btn-post-more-font-color:$color-light-gold;
+$btn-post-more-font-color:$color-pure-black;
+$btn-post-more-hover-back-color:$color-light-grey;
+$btn-post-more-font-hover-color:$color-dim-white;
 $article-tag-font-color: $color-deep-grey; 
 
 //archive

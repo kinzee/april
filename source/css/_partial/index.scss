@@ -29,6 +29,7 @@ main.index {
 		text-align: left;
     	border-left: none;
 		padding-left: 0;
+		color: $archive-content-color;
 	}
 }
 
@@ -65,9 +66,14 @@ main.index {
 	margin-top: 0.4rem;
 
 	.btn-post-more{
-		color: $btn-post-more-font-color;
+		border: 1px solid rgba(66, 80, 102, 0.8);
+    	border-radius: 4px;
+		padding: 0 10px;
+		font-size: 1.2rem;
+		color:$btn-post-more-font-color;
 		&:hover {
-  		text-decoration: underline;
+			background-color: $btn-post-more-hover-back-color;
+			color: $btn-post-more-font-hover-color;
 		}
 	}
 }

@@ -20,8 +20,8 @@ excerpt_link: Read More
 fancybox: true
 
 
-# Automatically Excerpt. Not recommand.
-# Please use <!-- more --> in the post to control excerpt accurately.
+# Automatically Excerpt.
+# Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
   length: 150
