@@ -1,0 +1,26 @@
+<% if (post.prev || post.next){ %>
+<nav id="article-nav">
+  <% if (post.prev){ %>
+    <section class="nav-prev">
+    <a href="<%- url_for(post.prev.path) %>" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-caption"><%= __('上一篇') %></div>
+      <div class="article-nav-title">
+        <% if (post.prev.title){ %>
+          <%= post.prev.title %>
+        <% } else { %>
+          (no title)
+        <% } %>
+      </div>
+    </a>
+    </section>
+  <% } %>
+  <% if (post.next){ %>
+    <section class="nav-next">
+    <a href="<%- url_for(post.next.path) %>" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-caption"><%= __('下一篇') %></div>
+      <div class="article-nav-title"><%= post.next.title %></div>
+    </a>
+    </section>
+  <% } %>
+</nav>
+<% } %>
