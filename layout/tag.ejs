@@ -1,1 +1,12 @@
-<%- partial('_partial/archive', {pagination: config.tag, index: true}) %>
+<%- partial('./_partial/header') %>
+<!-- 标签云 -->
+<div id='tag_cloud' class="tags">
+    <%- tagcloud(site.tags,{}) %>
+</div>
+
+
+<main class="archive">
+  <% page.posts.each(function(post){ %>
+    <%- partial('./_partial/archive', {post: post, index: false}) %>
+  <% }) %>
+</main>

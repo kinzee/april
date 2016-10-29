@@ -1,0 +1,27 @@
+#tag_cloud {
+    margin: 4rem 0 1.6rem 0;
+}
+.tags {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#tag_cloud a, #tag_cloud .tag {
+    font-size: 14px;
+    border: none;
+    line-height: 28px;
+    margin: 0 2px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(66, 80, 102, 0.4);
+    border-radius: 4px;
+}
+.tags a, .tags .tag {
+    display: inline-block;
+    padding: 0 10px;
+    color:$btn-post-more-font-color;
+    line-height: 24px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 1px;
+    margin-bottom: 6px;
+}
