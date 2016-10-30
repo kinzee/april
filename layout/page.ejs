@@ -1,5 +1,11 @@
 <main class="page">
   <div>
+  <!-- 标签云 -->
+  
+  <div id='tag_cloud' class="tags">
+      <%- tagcloud(site.tags,{}) %>
+  </div>
+
     <%- page.content %>
   </div>
 </main>

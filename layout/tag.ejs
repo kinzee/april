@@ -1,10 +1,17 @@
-<%- partial('./_partial/header') %>
-<!-- 标签云 -->
-<div id='tag_cloud' class="tags">
-    <%- tagcloud(site.tags,{}) %>
-</div>
+<%
+// tag 与 archive 基本一致,区别是:
+// 1. archive 使用的 site.posts, tag使用的是page.posts；
+// 2. tag 有分页。 (如果使用page.posts, hexo 默认使用config里的[per_page]来配置archive和tag分页)
+    var title = '';
+    if (page.category) title = page.category;
+    if (page.tag) title = "#" + page.tag;
+    if (page.archive) {
+        if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+        else title = __('archive_a');
+    }
+%>
 
-
+<h1 class="tag-title post-title"><%- title %></h1>
 <main class="archive">
   <% page.posts.each(function(post){ %>
     <%- partial('./_partial/archive', {post: post, index: false}) %>
