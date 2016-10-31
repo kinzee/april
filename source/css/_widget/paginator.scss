@@ -1,5 +1,5 @@
 .pagination {
-  margin: 120px 0 40px;
+  margin: 14rem 0 8rem;
   text-align: center;
   border-top: 1px solid #eee;
 }
@@ -8,13 +8,14 @@
     display: inline-block;
     position: relative;
     top: -1px;
-    margin: 0 10px;
-    padding: 0 10px;
-    line-height: 30px;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    line-height: 3rem;
 
     border-bottom: 0;
     border-top: 1px solid #eee;
     transition-property: border-color;
+    color: $color-light-black;
   }
 
   .space {
