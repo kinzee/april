@@ -25,7 +25,7 @@
 			border-top-style:none;
 			border-bottom-style:none;
 			border-left-width: thin;
-	
+
 			&:hover {
 				font-weight: bold;
 			}
@@ -86,7 +86,7 @@
 		float: right;
 		-webkit-writing-mode:vertical-rl;
 		margin-top: 0rem;
-		padding: 0rem 0.2rem;
+		padding: 0rem 2rem;
 		color: $title-font-color;
 		font-size: $title-font-size;
 		letter-spacing: 0.4rem;
@@ -95,7 +95,7 @@
 
 	h3 {
 		float: right;
-		padding: 0.4rem 1.2rem;
+		padding: 9rem 0rem;
 		-webkit-writing-mode:vertical-rl;
 		color: $subtitle-font-color;
 		font-size: $subtitle-font-size;
@@ -123,7 +123,3 @@
 		margin-top: 0.8rem;
 	}
 }
-
-
-
-
